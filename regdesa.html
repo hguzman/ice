@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+   <meta charset="utf-8">
+ 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title>.:ICE:.</title>
+   <link rel="shortcut icon" href="http://www.caerk.com/ice/favicon.ico">
+	 <!-- If you are using CSS version, only link these 2 files, you may add overrides if you like. -->
+	 <link rel="stylesheet" href="css/normalize.css">
+	 <link rel="stylesheet" href="css/foundation.css">
+	 <script src="js/vendor/modernizr.js"></script>
+   <style type="text/css">
+     body{background-image:url('images/s.png');}
+   </style>
+ </head>
+  <body align="center">
+    <!--Barra negra-->
+    <div class="row">
+        <nav class="top-bar" data-topbar>
+        <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">              
+              <li class="active"><a href="cerrarsesion.php">Cerrar Sesión</a></li>
+            </ul>
+        <!-- Left Nav Section -->
+            <ul class="left">
+              <li><a href="#"><?php echo $usuario ?></a></li>
+            </ul>
+        </section>                
+        </nav>
+    </div>
+    <!--Barra negra-->
+    <br>
+    <!--Logo ICE-->
+    <div class="row">
+      <div align="center" class="medium-12 columns"><a href="http://www.caerk.com/ice"><img src="images/logoice.png" width="180" height="180"></a></div>
+    </div>
+    <!--Logo ICE-->
+    <br>
+    <br>
+    <!--Menú Principal-->
+    <nav class="row">
+        <div class="large-12 columns">
+          <ul class="button-group radius even-6">
+            <li><a class="button" href="http://www.caerk.com/ice/reginst.html">REGISTRO</a></li>
+            <li><a class="button" href="#">PROFESOR</a></li>
+            <li><a class="button" href="#">ESTUDIANTE</a></li>
+            <li><a class="button" href="#">INSTITUCIÓN</a></li>
+            <li><a class="button" href="#">CURRÍCULO</a></li>
+            <li><a class="button" href="#">CURSOS</a></li> 
+          </ul>
+        </div>
+    </nav>
+    <!--Menú Principal-->
+    <br>
+     <!--Botones-->
+    <div class="row">
+      <div align=center class="large-4 columns"> 
+        <ul>
+         <p><a href="http://www.caerk.com/ice/regdesa.html" class="button">Desarrolladores</a></p>
+         <p><a href="http://www.caerk.com/ice/reginst.html" class="button">Instituciones</a></p>
+         <p><a href="http://www.caerk.com/ice/regprof.html" class="button">Profesores</a></p>
+         <p><a href="http://www.caerk.com/ice/regest.html" class="button">Estudiantes</a></p>
+        </ul>
+      </div>
+      <!--Botones-->
+      <!--Formulario-->
+      <div align="left" class="large-8 columns">
+        <fieldset>
+         <legend>Registro de Desarrolladores</legend>
+         <label>Nombre completo:</label>
+         <input type="text">
+         <label>Número de Identificación:</label>
+         <input type="text">
+         <label>Fecha de nacimiento</label>
+         <input type="text">
+         <label>Municipio/Ciudad:</label>
+         <input type="text">
+         <label>Dirección:</label>
+         <input type="text">
+         <label>Teléfono:</label>
+         <input type="text">
+         <label>Celular:</label>
+         <input type="text">
+         <label>E-mail:</label>
+         <input type="text">
+         <a href="#" class="button">Registrar</a>
+        </fieldset>
+      </div>
+      <!--Formulario-->
+    <!--Pie de Página-->
+    <footer class="row">
+      <div class="large-12 olumns">
+        <hr/>
+        <div class="row">
+          <div class="large-3 columns">
+            <p>© Copyright ICE 2014.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Pie de Página-->
+  </body>
+</html>
