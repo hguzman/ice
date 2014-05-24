@@ -2,7 +2,7 @@
 
 //$server="sql6.bravehost.com";
 //$usurio="ice2";
-//$contrasena="De#C9Elotusœ";
+//$contrasena="k1234567890";
 //$basedatos="icedb_1900960";
  
 /* Conexion Servidor local*/

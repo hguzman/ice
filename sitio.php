@@ -63,7 +63,7 @@
       <nav class="row">
           <div class="large-12 columns">
             <ul class="button-group radius even-6">
-              <li><a class="button" href="http://www.caerk.com/ice/reginst.html">REGISTRO</a></li>
+              <li><a class="button" href="modregistro.php">REGISTRO</a></li>
               <li><a class="button" href="#">PROFESOR</a></li>
               <li><a class="button" href="#">ESTUDIANTE</a></li>
               <li><a class="button" href="#">INSTITUCIÓN</a></li>
